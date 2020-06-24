@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ONu-qB-y4M">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Объявления-->
+        <scene sceneID="6Gh-eW-Q41">
+            <objects>
+                <viewController storyboardIdentifier="AdsViewController" title="Объявления" id="ONu-qB-y4M" customClass="AdsViewController" customModule="Kolesa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a97-H7-AWD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5AO-3l-qjL">
+                                <rect key="frame" x="40" y="404" width="334" height="88"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID объявления" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oHw-n2-j8Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <action selector="inputAdIdTextField:" destination="ONu-qB-y4M" eventType="editingChanged" id="scx-FU-Gfu"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMm-2C-Kfo">
+                                        <rect key="frame" x="0.0" y="48" width="334" height="40"/>
+                                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="I5f-cH-IZM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="Перейти к объявлению">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clickGoToAdButton:" destination="ONu-qB-y4M" eventType="touchUpInside" id="N3z-9h-R7G"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5AO-3l-qjL" firstAttribute="centerX" secondItem="a97-H7-AWD" secondAttribute="centerX" id="Ewe-wK-ifz"/>
+                            <constraint firstItem="5AO-3l-qjL" firstAttribute="centerY" secondItem="a97-H7-AWD" secondAttribute="centerY" id="KmA-pW-YtJ"/>
+                            <constraint firstItem="M84-3c-mzs" firstAttribute="trailing" secondItem="5AO-3l-qjL" secondAttribute="trailing" constant="40" id="eDZ-Av-gOP"/>
+                            <constraint firstItem="5AO-3l-qjL" firstAttribute="leading" secondItem="M84-3c-mzs" secondAttribute="leading" constant="40" id="ucb-Lz-t1s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="M84-3c-mzs"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="adIdTextField" destination="oHw-n2-j8Y" id="eGv-JG-Ash"/>
+                        <outlet property="goToAdButton" destination="JMm-2C-Kfo" id="QK8-Nl-53e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WyS-jN-jbP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+        <!--Ad View Controller-->
+        <scene sceneID="LaG-Et-tuV">
+            <objects>
+                <tableViewController storyboardIdentifier="AdViewController" id="iJX-10-LZB" customClass="AdViewController" customModule="Kolesa" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="60" id="nof-46-gje" customClass="ParallaxEffectTableView" customModule="Kolesa" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="dataSource" destination="iJX-10-LZB" id="MCR-Sj-TXy"/>
+                            <outlet property="delegate" destination="iJX-10-LZB" id="8iZ-E8-tih"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="tNt-yy-EUh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ftw-F7-lCY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="139"/>
+        </scene>
+    </scenes>
+</document>

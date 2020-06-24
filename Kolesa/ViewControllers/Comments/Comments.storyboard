@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="auE-vk-0Fl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Comments View Controller-->
+        <scene sceneID="dbu-v7-DPU">
+            <objects>
+                <viewController storyboardIdentifier="CommentsViewController" id="auE-vk-0Fl" customClass="CommentsViewController" customModule="Kolesa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IEl-FR-Nqu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rLf-NO-YjS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="719"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evZ-2N-e2Y" customClass="KeyboardView" customModule="Kolesa" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="763" width="414" height="99"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ok3-0a-kbT" firstAttribute="trailing" secondItem="rLf-NO-YjS" secondAttribute="trailing" id="7Ue-SQ-Owb"/>
+                            <constraint firstItem="evZ-2N-e2Y" firstAttribute="leading" secondItem="Ok3-0a-kbT" secondAttribute="leading" id="9Pc-DB-7EM"/>
+                            <constraint firstItem="evZ-2N-e2Y" firstAttribute="top" secondItem="rLf-NO-YjS" secondAttribute="bottom" id="Ff8-Ia-5aq"/>
+                            <constraint firstItem="Ok3-0a-kbT" firstAttribute="bottom" secondItem="evZ-2N-e2Y" secondAttribute="bottom" id="PXb-lb-LWm"/>
+                            <constraint firstItem="rLf-NO-YjS" firstAttribute="top" secondItem="Ok3-0a-kbT" secondAttribute="top" id="Zc5-EU-vfD"/>
+                            <constraint firstItem="Ok3-0a-kbT" firstAttribute="trailing" secondItem="evZ-2N-e2Y" secondAttribute="trailing" id="iF3-0R-21B"/>
+                            <constraint firstItem="rLf-NO-YjS" firstAttribute="leading" secondItem="Ok3-0a-kbT" secondAttribute="leading" id="qKk-M9-H6m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ok3-0a-kbT"/>
+                    </view>
+                    <connections>
+                        <outlet property="keyboardView" destination="evZ-2N-e2Y" id="T08-Xg-j0r"/>
+                        <outlet property="tableView" destination="rLf-NO-YjS" id="x3H-LO-LvB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DGg-Ns-Tgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="120.53571428571428"/>
+        </scene>
+        <!--Comment Replies View Controller-->
+        <scene sceneID="r1i-Wo-P9v">
+            <objects>
+                <viewController storyboardIdentifier="CommentRepliesViewController" id="uP1-xq-WEj" customClass="CommentRepliesViewController" customModule="Kolesa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ckf-xE-Naa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TwN-Ud-tdv">
+                                <rect key="frame" x="0.0" y="44" width="414" height="719"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsz-3G-J3A" customClass="KeyboardView" customModule="Kolesa" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="763" width="414" height="99"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TwN-Ud-tdv" firstAttribute="top" secondItem="x80-ws-Pob" secondAttribute="top" id="8bY-VV-bI9"/>
+                            <constraint firstItem="x80-ws-Pob" firstAttribute="trailing" secondItem="TwN-Ud-tdv" secondAttribute="trailing" id="UUR-i8-i5X"/>
+                            <constraint firstItem="x80-ws-Pob" firstAttribute="bottom" secondItem="lsz-3G-J3A" secondAttribute="bottom" id="ZzL-ii-PFT"/>
+                            <constraint firstItem="lsz-3G-J3A" firstAttribute="top" secondItem="TwN-Ud-tdv" secondAttribute="bottom" id="lRi-bH-bb1"/>
+                            <constraint firstItem="TwN-Ud-tdv" firstAttribute="leading" secondItem="x80-ws-Pob" secondAttribute="leading" id="pfV-Or-q4P"/>
+                            <constraint firstItem="x80-ws-Pob" firstAttribute="trailing" secondItem="lsz-3G-J3A" secondAttribute="trailing" id="sVR-SI-TWP"/>
+                            <constraint firstItem="lsz-3G-J3A" firstAttribute="leading" secondItem="x80-ws-Pob" secondAttribute="leading" id="whS-vi-Sld"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x80-ws-Pob"/>
+                    </view>
+                    <connections>
+                        <outlet property="keyboardView" destination="lsz-3G-J3A" id="z4q-IU-XlY"/>
+                        <outlet property="tableView" destination="TwN-Ud-tdv" id="L3C-5F-4Is"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4s-ND-X6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832" y="121"/>
+        </scene>
+    </scenes>
+</document>

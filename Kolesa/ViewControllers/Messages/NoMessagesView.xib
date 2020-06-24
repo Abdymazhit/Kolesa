@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoMessagesView" customModule="Kolesa" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="J5x-cs-2Im"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="У вас нет сообщений :(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GV1-e7-UGE">
+                    <rect key="frame" x="72.5" y="433.5" width="269" height="29"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Начните диалог на странице любого объявления" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNk-cL-cRi">
+                    <rect key="frame" x="32" y="470.5" width="350" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_messages" translatesAutoresizingMaskIntoConstraints="NO" id="y8h-Sd-gwh">
+                    <rect key="frame" x="143" y="289.5" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="SPD-Nc-z8V"/>
+                        <constraint firstAttribute="width" constant="128" id="sfg-Td-2G4"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GV1-e7-UGE" firstAttribute="top" secondItem="y8h-Sd-gwh" secondAttribute="bottom" constant="16" id="2sa-Dj-1Vo"/>
+                <constraint firstItem="pNk-cL-cRi" firstAttribute="top" secondItem="GV1-e7-UGE" secondAttribute="bottom" constant="8" id="HwF-JB-aG6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pNk-cL-cRi" secondAttribute="trailing" constant="32" id="IN6-k8-lbE"/>
+                <constraint firstItem="GV1-e7-UGE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KTT-45-wkh"/>
+                <constraint firstItem="GV1-e7-UGE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TbK-Wu-yR3"/>
+                <constraint firstItem="y8h-Sd-gwh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="WnY-SI-RaN"/>
+                <constraint firstItem="pNk-cL-cRi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="nYw-ni-UcP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="81" y="-84"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="no_messages" width="48" height="48"/>
+    </resources>
+</document>
