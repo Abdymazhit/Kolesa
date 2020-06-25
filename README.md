@@ -1,6 +1,10 @@
 # Kolesa
 Kolesa.kz app by Abdymazhit Islam
 
+Необходимо загрузить фреймворк Kanna, Alamofire:
+
+pod install в репозитории
+
 # Приложение
 Для просмотра всех возможностей приложения достаточно ввести ID объявления в главном экране
 
@@ -12,7 +16,21 @@ ID объявления можно достать с страницы любог
 
 Если вы не являетесь iOS разработчиком и не можете запустить проект с GitHub, вот вам фотография приложения для ознакомления:
 
-<img src="https://drive.google.com/u/0/uc?id=1Uh4JRI797cjzTEsCqqWbYtlpo7pWf-PN&" width="180"><img src="https://drive.google.com/u/0/uc?id=1okWYpt5qb_CFOnqjl6-HakN1NgPfRLuk&" width="180"><img src="https://drive.google.com/u/0/uc?id=170H-A7NX2ojT54G-MKCc6PkY7lFCrJWZ&" width="180"><img src="https://drive.google.com/u/0/uc?id=1Ad6pG-hISis4AoG4g5EtJfJZZmrvs7MP&" width="180"><img src="https://drive.google.com/u/0/uc?id=1FP7AMVXLFGcKQswcPGBYp6BCcF22mOUL&" width="180"><img src="https://drive.google.com/u/0/uc?id=1J2O-lSePbP_TI7-ljomtQKYqBQ4lkf72&" width="180"><img src="https://drive.google.com/u/0/uc?id=1L1tuhHTBFij7PBV2LPDuYbBwJYfYleaP&" width="180"><img src="https://drive.google.com/u/0/uc?id=1MeCMQnkxod3c-SBUE8gTsfZpo7roGUKM&" width="180"><img src="https://drive.google.com/u/0/uc?id=1XUwZl2_G6kJyqPQgeCGiPe9sbxaSx1gG&" width="180"><img src="https://drive.google.com/u/0/uc?id=1d7JcsjR8QQSWAjfO81MG_zI0t3B728XV&" width="180"><img src="https://drive.google.com/u/0/uc?id=1funxvarAu11LqavC1Ym0x91cvV7eyzy2&" width="180"><img src="https://drive.google.com/u/0/uc?id=1ii3e3_QdMoFkdS4BZj5h9HfRCcKV_CQn&" width="180"><img src="https://drive.google.com/u/0/uc?id=1lSw330pVlHpkb2RksBcBnJlgOs8ctimu&" width="180"><img src="https://drive.google.com/u/0/uc?id=1m9-wIzxwIaqO58EV9MVQPCDbxT2fwtBC&" width="180"><img src="https://drive.google.com/u/0/uc?id=1muzKTnsF2imlEtIkuH0rTBvKLSdiipay&" width="180"><img src="https://drive.google.com/u/0/uc?id=1v09pxiQtnxAIeIw_mwxewOEg0gMWRlsi&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1Uh4JRI797cjzTEsCqqWbYtlpo7pWf-PN&" width="180">  <img src="https://drive.google.com/u/0/uc?id=1okWYpt5qb_CFOnqjl6-HakN1NgPfRLuk&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1J2O-lSePbP_TI7-ljomtQKYqBQ4lkf72&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=170H-A7NX2ojT54G-MKCc6PkY7lFCrJWZ&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1v09pxiQtnxAIeIw_mwxewOEg0gMWRlsi&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1MeCMQnkxod3c-SBUE8gTsfZpo7roGUKM&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1XUwZl2_G6kJyqPQgeCGiPe9sbxaSx1gG&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1lSw330pVlHpkb2RksBcBnJlgOs8ctimu&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1m9-wIzxwIaqO58EV9MVQPCDbxT2fwtBC&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1FP7AMVXLFGcKQswcPGBYp6BCcF22mOUL&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1ii3e3_QdMoFkdS4BZj5h9HfRCcKV_CQn&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1L1tuhHTBFij7PBV2LPDuYbBwJYfYleaP&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1Ad6pG-hISis4AoG4g5EtJfJZZmrvs7MP&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1muzKTnsF2imlEtIkuH0rTBvKLSdiipay&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1d7JcsjR8QQSWAjfO81MG_zI0t3B728XV&" width="180">
+<img src="https://drive.google.com/u/0/uc?id=1funxvarAu11LqavC1Ym0x91cvV7eyzy2&" width="180">
 
 Перейдите по ссылке, если фотография не прогрузились: https://drive.google.com/drive/folders/16GwsFOlvWiDGWsNupyvslgvfHCE2r52P
 
