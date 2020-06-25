@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2117B946CB67DA17C26D7D /* Pods_Kolesa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C6C287296B3466A6612C0B /* Pods_Kolesa.framework */; };
 		4F05C2932465AB0E00141D9C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F05C2922465AB0E00141D9C /* ProfileViewController.swift */; };
 		4F14386D2464116D0014A37E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14386C2464116D0014A37E /* AppDelegate.swift */; };
 		4F14386F2464116D0014A37E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14386E2464116D0014A37E /* SceneDelegate.swift */; };
@@ -37,7 +36,6 @@
 		4FFBDDBE24652CFB00507791 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBDDBD24652CFB00507791 /* TabBar.storyboard */; };
 		4FFDE4EE2469C39A001FC0F3 /* CommentsCountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDE4EC2469C39A001FC0F3 /* CommentsCountTableViewCell.swift */; };
 		4FFDE4EF2469C39A001FC0F3 /* CommentsCountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFDE4ED2469C39A001FC0F3 /* CommentsCountTableViewCell.xib */; };
-		A4501E7C9A9F683770CF5828 /* Pods_KolesaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C484807067BAEFE13E9D4456 /* Pods_KolesaTests.framework */; };
 		F4037D2F24A1093A00D4EFF6 /* CommentRepliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4037D2E24A1093A00D4EFF6 /* CommentRepliesViewController.swift */; };
 		F4064031248FA10200E04AA2 /* FullScreenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4064030248FA10200E04AA2 /* FullScreenCollectionViewController.swift */; };
 		F4064035248FA3CA00E04AA2 /* FullScreenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4064034248FA3CA00E04AA2 /* FullScreenCollectionViewCell.swift */; };
@@ -134,12 +132,6 @@
 		4FFBDDBD24652CFB00507791 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		4FFDE4EC2469C39A001FC0F3 /* CommentsCountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCountTableViewCell.swift; sourceTree = "<group>"; };
 		4FFDE4ED2469C39A001FC0F3 /* CommentsCountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsCountTableViewCell.xib; sourceTree = "<group>"; };
-		A2C6C287296B3466A6612C0B /* Pods_Kolesa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kolesa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD982BD22A9E84AEE1322921 /* Pods-KolesaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolesaTests.debug.xcconfig"; path = "Target Support Files/Pods-KolesaTests/Pods-KolesaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C18FBCBCFA9F0309F16CCB44 /* Pods-Kolesa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kolesa.release.xcconfig"; path = "Target Support Files/Pods-Kolesa/Pods-Kolesa.release.xcconfig"; sourceTree = "<group>"; };
-		C484807067BAEFE13E9D4456 /* Pods_KolesaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KolesaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6321FC843496A4A0D408A79 /* Pods-Kolesa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kolesa.debug.xcconfig"; path = "Target Support Files/Pods-Kolesa/Pods-Kolesa.debug.xcconfig"; sourceTree = "<group>"; };
-		E6D2125B5F37CBF001AD2BAB /* Pods-KolesaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolesaTests.release.xcconfig"; path = "Target Support Files/Pods-KolesaTests/Pods-KolesaTests.release.xcconfig"; sourceTree = "<group>"; };
 		F4037D2E24A1093A00D4EFF6 /* CommentRepliesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRepliesViewController.swift; sourceTree = "<group>"; };
 		F4064030248FA10200E04AA2 /* FullScreenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCollectionViewController.swift; sourceTree = "<group>"; };
 		F4064034248FA3CA00E04AA2 /* FullScreenCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -204,7 +196,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2117B946CB67DA17C26D7D /* Pods_Kolesa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CB5E9024A290B200D9C48D /* Kanna.framework in Frameworks */,
-				A4501E7C9A9F683770CF5828 /* Pods_KolesaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +217,6 @@
 				F4CB5E8C24A28F7600D9C48D /* Kanna.framework */,
 				F4CB5E8A24A28E6E00D9C48D /* Alamofire.framework */,
 				F4CB5E8824A28E6100D9C48D /* Kanna.framework */,
-				A2C6C287296B3466A6612C0B /* Pods_Kolesa.framework */,
-				C484807067BAEFE13E9D4456 /* Pods_KolesaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,10 +224,6 @@
 		1D1173E879DF333FA231FAF1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E6321FC843496A4A0D408A79 /* Pods-Kolesa.debug.xcconfig */,
-				C18FBCBCFA9F0309F16CCB44 /* Pods-Kolesa.release.xcconfig */,
-				BD982BD22A9E84AEE1322921 /* Pods-KolesaTests.debug.xcconfig */,
-				E6D2125B5F37CBF001AD2BAB /* Pods-KolesaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -647,11 +631,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F14387D2464116E0014A37E /* Build configuration list for PBXNativeTarget "Kolesa" */;
 			buildPhases = (
-				617BF84A8B44C7AC64DE0194 /* [CP] Check Pods Manifest.lock */,
 				4F1438652464116D0014A37E /* Sources */,
 				4F1438662464116D0014A37E /* Frameworks */,
 				4F1438672464116D0014A37E /* Resources */,
-				3187E1828FBC470DE5E1D138 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -666,11 +648,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4CB5E6D24A2664E00D9C48D /* Build configuration list for PBXNativeTarget "KolesaTests" */;
 			buildPhases = (
-				97BD5A3EA4091DA9315F1C47 /* [CP] Check Pods Manifest.lock */,
 				F4CB5E6224A2664E00D9C48D /* Sources */,
 				F4CB5E6324A2664E00D9C48D /* Frameworks */,
 				F4CB5E6424A2664E00D9C48D /* Resources */,
-				B5BE3CE244C3E8C7B7754387 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -760,87 +740,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3187E1828FBC470DE5E1D138 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Kolesa/Pods-Kolesa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Kolesa/Pods-Kolesa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kolesa/Pods-Kolesa-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		617BF84A8B44C7AC64DE0194 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Kolesa-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		97BD5A3EA4091DA9315F1C47 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KolesaTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B5BE3CE244C3E8C7B7754387 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KolesaTests/Pods-KolesaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KolesaTests/Pods-KolesaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KolesaTests/Pods-KolesaTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F1438652464116D0014A37E /* Sources */ = {
@@ -1059,7 +958,6 @@
 		};
 		4F14387E2464116E0014A37E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6321FC843496A4A0D408A79 /* Pods-Kolesa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1078,7 +976,6 @@
 		};
 		4F14387F2464116E0014A37E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C18FBCBCFA9F0309F16CCB44 /* Pods-Kolesa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1097,7 +994,6 @@
 		};
 		F4CB5E6E24A2664E00D9C48D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD982BD22A9E84AEE1322921 /* Pods-KolesaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1118,7 +1014,6 @@
 		};
 		F4CB5E6F24A2664E00D9C48D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6D2125B5F37CBF001AD2BAB /* Pods-KolesaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
